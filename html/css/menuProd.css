@@ -1,0 +1,129 @@
+#navigationMenuProd li,
+#navigationMenuProdOpen li{
+	list-style:none;
+	height:50px;
+	width:40px;
+}
+
+#navigationMenuProd span,
+#navigationMenuProdOpen span{
+	width:0;
+	right:80px;
+	padding:0;
+	position:absolute;
+	overflow:hidden;
+	font-family:'Myriad Pro',Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	letter-spacing:0.6px;
+	white-space:nowrap;
+	line-height:50px;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	transition: 0.5s;
+}
+
+#navigationMenuProd a,
+#navigationMenuProdOpen a{
+	background:url('../images/menu-prod.png') no-repeat;
+	height:50px;
+	width:80px;
+	display:block;
+	position:relative;
+	text-decoration:none;	
+
+}
+
+#navigationMenuProd a:hover span{ 
+	width:auto; 
+	padding:0 20px;
+	overflow:visible; 
+}
+
+#navigationMenuProdOpen a span{
+	width:auto; 
+	padding:0 20px;
+	overflow:visible; 
+}
+
+#navigationMenuProd a:hover,
+#navigationMenuProdOpen a:hover {
+	text-decoration:none;	
+}
+
+#navigationMenuProd .ebc,
+#navigationMenuProdOpen .ebc { background-position:0 0;}
+#navigationMenuProd .ebc:hover,
+#navigationMenuProdOpen .ebc:hover { background-position:0 0px;}
+#navigationMenuProd .ebc span,
+#navigationMenuProdOpen .ebc span {
+	background-color:#76777c;
+	color:#ffffff;
+	text-shadow:1px 1px 0 #BABCC1;
+}
+
+#navigationMenuProd .tvs,
+#navigationMenuProdOpen .tvs { background-position:0 -50px;}
+#navigationMenuProd .tvs:hover,
+#navigationMenuProdOpen .tvs:hover { background-position:0 -50px;}
+#navigationMenuProd .tvs span,
+#navigationMenuProdOpen .tvs span {
+	background-color:#12254b;
+	color:#ffffff;
+	text-shadow:1px 1px 0 #188CB6;
+}
+
+#navigationMenuProd .radios,
+#navigationMenuProdOpen .radios { background-position:0 -100px;}
+#navigationMenuProd .radios:hover,
+#navigationMenuProdOpen .radios:hover { background-position:0 -100px;}
+#navigationMenuProd .radios span,
+#navigationMenuProdOpen .radios span {
+	background-color:#f0564b;
+	color:#ffffff;
+	text-shadow:1px 1px 0 #A11D21;
+}
+
+#navigationMenuProd .internet,
+#navigationMenuProdOpen .internet { background-position:0 -150px;}
+#navigationMenuProd .internet:hover,
+#navigationMenuProdOpen .internet:hover { background-position:0 -150px;}
+#navigationMenuProd .internet span,
+#navigationMenuProdOpen .internet span {
+	background-color:#e6a633;
+	color:#ffffff;
+	text-shadow:1px 1px 0 #F36D2C;
+}
+
+#navigationMenuProd .projetos,
+#navigationMenuProdOpen .projetos { background-position:0 -200px;}
+#navigationMenuProd .projetos:hover,
+#navigationMenuProdOpen .projetos:hover { background-position:0 -200px;}
+#navigationMenuProd .projetos span,
+#navigationMenuProdOpen .projetos span {
+	background-color:#37b34a;
+	color:#ffffff;
+	text-shadow:1px 1px 0 #004b10;
+}
+
+#navigationMenuProd .paraanunciar,
+#navigationMenuProdOpen .paraanunciar { background-position:0 -250px;}
+#navigationMenuProd .paraanunciar:hover,
+#navigationMenuProdOpen .paraanunciar:hover { background-position:0 -250px;}
+#navigationMenuProd .paraanunciar span,
+#navigationMenuProdOpen .paraanunciar span {
+	background-color:#d1c316;
+	color:#ffffff;
+	text-shadow:1px 1px 0 #7a7400;
+}
+
+#navigationMenuProd .acervo,
+#navigationMenuProdOpen .acervo { background-position:0 -300px;}
+#navigationMenuProd .acervo:hover,
+#navigationMenuProdOpen .acervo:hover { background-position:0 -300px;}
+#navigationMenuProd .acervo span,
+#navigationMenuProdOpen .acervo span {
+	background-color:#986d50;
+	color:#ffffff;
+	text-shadow:1px 1px 0 #754c28;
+}

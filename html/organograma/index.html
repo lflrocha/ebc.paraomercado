@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="js/jquery.quicksand.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+    <link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
+
+
+    <title>EBC Serviços - Organograma</title>
+
+	
+	</head>
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+        <div id="content">
+
+            <ul class="splitter" id="filter">
+                <li id="equipe" class="active"><a href="#" class="all"></a></li>
+<!--                
+                <li><a href="#" class="dicap"></a></li>
+                <li><a href="#" class="negocios"></a></li>
+                <li><a href="#" class="conteudo"></a></li>	
+                <li><a href="#" class="marketing"></a></li>	
+-->
+            </ul>
+
+            <ul class="image-grid">
+
+                <li data-id="id-1" data-type="dicap">
+                    <div class="mosaic-block">
+                        <div class="mosaic-backdrop">
+                            <img src="images/1.jpg">
+                        </div>    
+                        <div class="mosaic-overlayblue">
+                            <a class="fancy" href="#foto1_info">
+                                <div class="mosaic-content">
+                                    <p class="nome">Antonio Carlos Gonçalves</p>
+                                    <p class="cargo">Diretor de Negócios e Serviços</p>
+                                    <span data-type="size">1</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                
+                <li data-id="id-14" data-type="negocios">
+                    <div class="mosaic-block">
+                        <div class="mosaic-backdrop">
+                            <img src="images/14.jpg">
+                        </div>    
+                        <div class="mosaic-overlayred">
+                            <a class="fancy" href="#foto14_info">
+                                <div class="mosaic-content">
+                                    <p class="nome">Antônio Marinho</p>
+                                    <p class="cargo">Gerente de Publicidade Legal</p>
+                                    <span data-type="size">4</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+<!--
+                <li data-id="id-16" data-type="negocios">
+                    <div class="mosaic-block">
+                        <div class="mosaic-backdrop">
+                            <img src="images/16.jpg">
+                        </div>    
+                        <div class="mosaic-overlayred">
+                            <a class="fancy" href="#foto16_info">
+                                <div class="mosaic-content">
+                                    <p class="nome">Benito Avarez Rizzi</p>
+                                    <p class="cargo">Unidade de Captação - São Paulo</p>
+                                    <span data-type="size">6</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+-->
+                <li data-id="id-8" data-type="conteudo">
+                    <div class="mosaic-block">
+                        <div class="mosaic-backdrop">
+                            <img src="images/8.jpg">
+                        </div>    
+                        <div class="mosaic-overlaygreen">
+                            <a class="fancy" href="#foto8_info">
+                                <div class="mosaic-content">
+                                    <p class="nome">Daniel Costa</p>
+                                    <p class="cargo">Gerente de Produção</p>
+                                    <span data-type="size">2</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li data-id="id-7" data-type="conteudo">
+                    <div class="mosaic-block">
+                        <div class="mosaic-backdrop">
+                            <img src="images/7.jpg">
+                        </div>    
+                        <div class="mosaic-overlaygreen">
+                            <a class="fancy" href="#foto7_info">
+                                <div class="mosaic-content">
+                                    <p class="nome">Elma de Almeida</p>
+                                    <p class="cargo">Gerente Executiva de Conteúdo</p>
+                                    <span data-type="size">1</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li data-id="id-4" data-type="dicap">
+                    <div class="mosaic-block">
+                        <div class="mosaic-backdrop">
+                            <img src="images/4.jpg">
+                        </div>    
+                        <div class="mosaic-overlayblue">
+                            <a class="fancy" href="#foto4_info">
+
+                                <div class="mosaic-content">
+                                    <p class="nome">Flávio Gonçalves</p>
+                                    <p class="cargo">Assessor de Produção e Qualidade</p>
+                                    <span data-type="size">4</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li data-id="id-10" data-type="conteudo">
+                    <div class="mosaic-block">
+                        <div class="mosaic-backdrop">
+                            <img src="images/10.jpg">
+                        </div>    
+                        <div class="mosaic-overlaygreen">
+                            <a class="fancy" href="#foto10_info">
+                                <div class="mosaic-content">
+                                    <p class="nome">Jeanne Oliveira</p>
+                                    <p class="cargo">Gerente de Criação</p>
+                                    <span data-type="size">4</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+<!--                <li data-id="id-18" data-type="dicap">
+                    <div class="mosaic-block">
+                        <div class="mosaic-backdrop">
+                            <img src="images/18.jpg">
+                        </div>    
+                        <div class="mosaic-overlay">
+                            <a class="fancy" href="#foto18_info">
+                                <div class="mosaic-content">
+                                    <p class="nome">Gilsilane de Araújo</p>
+                                    <p class="cargo">Secretária</p>
+                                    <span data-type="size">7</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+-->                
+                <li data-id="id-5" data-type="marketing">
+                    <div class="mosaic-block">
+                        <div class="mosaic-backdrop">
+                            <img src="images/5.jpg">
+                        </div>    
+                        <div class="mosaic-overlayyellow">
+                            <a class="fancy" href="#foto5_info">
+
+                                <div class="mosaic-content">
+                                    <p class="nome">Gustavo Pinho</p>
+                                    <p class="cargo">Gerente de Projetos</p>
+                                    <span data-type="size">2</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+
+<!--
+                <li data-id="id-6" data-type="marketing">
+                    <div class="mosaic-block">
+                        <div class="mosaic-backdrop">
+                            <img src="images/6.jpg">
+                        </div>    
+                        <div class="mosaic-overlayyellow">
+                            <a class="fancy" href="#foto6_info">
+                                <div class="mosaic-content">
+                                    <p class="nome">Tatiana Freire</p>
+                                    <p class="cargo">Gerente de Marketing</p>
+                                    <span data-type="size">5</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+-->               
+                <li data-id="id-9" data-type="conteudo">
+                    <div class="mosaic-block">
+                        <div class="mosaic-backdrop">
+                            <img src="images/9.jpg"></a>
+                        </div>    
+                        <div class="mosaic-overlaygreen">
+                            <a class="fancy" href="#foto9_info">            
+                                <div class="mosaic-content">
+                                    <p class="nome">José Luiz Lima</p>
+                                    <p class="cargo">Gerente de Monitoramento e Análise de Mídia</p>
+                                    <span data-type="size">3</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li data-id="id-3" data-type="dicap">
+                    <div class="mosaic-block">
+                        <div class="mosaic-backdrop">
+                            <img src="images/3.jpg">
+                        </div>    
+                        <div class="mosaic-overlayblue">
+                            <a class="fancy" href="#foto3_info">
+                                <div class="mosaic-content">
+                                    <p class="nome">Luiz Antonio Ferreira</p>
+                                    <p class="cargo">Assessor de Gestão e Monitoramento</p> 
+                                    <span data-type="size">3</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </li>                
+                        
+                <li data-id="id-2" data-type="dicap">
+                    <div class="mosaic-block">
+                        <div class="mosaic-backdrop">
+                            <img src="images/2.jpg">
+                        </div>    
+                        <div class="mosaic-overlayblue">
+                            <a class="fancy" href="#foto2_info">
+                                <div class="mosaic-content">
+                                    <p class="nome">Mauricio Capasciutti</p>
+                                    <p class="cargo">Assessor de Desenvolvimento Mercadológico</p>
+                                    <span data-type="size">2</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+<!--
+				<li data-id="id-13" data-type="negocios">
+                    <div class="mosaic-block">
+                        <div class="mosaic-backdrop">
+                            <img src="images/13.jpg">
+                        </div>    
+                        <div class="mosaic-overlayred">
+                            <a class="fancy" href="#foto13_info">
+                                <div class="mosaic-content">
+                                    <p class="nome">Sahada Luedy</p>
+                                    <p class="cargo">Gerência de Selos e Marcas</p>
+                                    <span data-type="size">3</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+-->
+                <li data-id="id-11" data-type="conteudo">
+                    <div class="mosaic-block">
+                        <div class="mosaic-backdrop">
+                            <img src="images/11.jpg">
+                        </div>    
+                        <div class="mosaic-overlaygreen">
+                            <a class="fancy" href="#foto11_info">
+                                <div class="mosaic-content">
+                                    <p class="nome">Vicente Carvelo Neto</p>
+                                    <p class="cargo">Gerente de Operações</p>
+                                    <span data-type="size">5</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+            </ul>                
+
+            <div id="infobox" style="display: none;">  
+                <span class="close"><a href="#"><img class="close" src="images/close.png"/></a></span>  
+                <br/>  
+                
+				
+				<div id="foto1_info" class="infobox">
+                    <img src="images/1.jpg">
+                    <h4>Antonio Carlos Gonçalves</h4>
+                    <p class="cargo">Diretor de Negócios e Serviços</p>
+                    <p>Jornalista, foi Diretor de Comunicação e Marketing da editora Cosac Naify e Gerente de Planejamento e Desenvolvimento, Marketing e Comunicação do Centro Cultural Banco do Brasil do Rio de Janeiro. Antes de assumir o cargo de Diretor de Negócios e Serviços da EBC, era Diretor de Patrocínio da Secom.</p>  
+                </div>
+
+                <div id="foto2_info" class="infobox">
+                    <img src="images/2.jpg">
+                    <h4>Mauricio Capasciutti</h4>
+                    <p class="cargo">Assessor de Desenvolvimento Mercadológico</p>
+                    <p>Formado em Comunicação Social pela Escola Superior de Propaganda & Marketing -SP e Pós-Graduado em Comunicação com o Mercado na mesma instituição. 
+
+					Foi Gerente de Comunicação, de Projetos e de Rede nas TVs Bandeirantes, Cultura e Esporte Interativo.</p>  
+                </div>
+                <div id="foto3_info" class="infobox">
+                    <img src="images/3.jpg" />
+                    <h4>Luiz Antonio Ferreira</h4>
+                    <p class="cargo">Assessor de Gestão e Monitoramento</p>
+                    <p>Administrador, especializado em Análise de Sistemas e em Planejamento e Desenvolvimento de Recursos Humanos; Pós-graduado em Organização, Sistemas e Métodos. Analista do quadro da Radiobrás/EBC há 33 anos, foi Diretor de Comercialização, Administração e Finanças da Radiobrás, entre 1998 e 2003.</p>  
+                </div>  
+                <div id="foto4_info" class="infobox">
+                    <img src="images/4.jpg">
+                    <h4>Flávio Gonçalves</h4>
+                    <p class="cargo">Assessor de Produção e Qualidade</p>
+                    <p>Formado em Comunicação Social/Jornalismo pela Universidade Federal do Espírito Santo. Mestre em Comunicação pela Universidade de Brasília. Foi repórter e assessor de imprensa. Coordenou programas de inclusão digital. É funcionário concursado na EBC desde 2007. Foi produtor, editor e coordenador de pauta da antiga Diretoria de Serviços. Também atuou como Assessor da Secretaria de Comunicação Social da Presidência da República.</p>  
+                </div>
+                <div id="foto5_info" class="infobox">
+                    <img src="images/5.jpg">
+                    <h4>Gustavo Pinho</h4>
+                    <p class="cargo">Gerente de Projetos</p>
+                    <p>Administrador de Empresas, 14 anos de experiência em gerenciamento de pessoas e de projetos, sendo 10 deles nas áreas de comunicação e marketing, 4 anos como gerente de atendimento em agência de publicidade, 6 anos na Rede Paulista de Televisão, então afiliada da TV Cultura, responsável pela diretoria de planejamento e marketing.<br /><br/> Atualmente, Gerente de Projetos da EBC, área responsável por implantar as políticas de negócios e de comercialização determinadas pela Diretoria de Captação e suas unidades de negócios; desenvolver projetos de produtos e serviços, visando aproveitamento de oportunidades de negócios para a EBC além de desenvolver e formatar projetos customizados relacionados a novos produtos e serviços.</p>  
+                </div>
+<!--
+                <div id="foto6_info" class="infobox">
+                    <img src="images/6.jpg">
+                    <h4>Tatiana Freire</h4>
+                    <p class="cargo">Gerente de Marketing</p>
+                    <p>Formada em Comunicação Social com habilitação em Publicidade e Propaganda e pós-graduada em Gestação Estratégica em Marketing pela Fundação Getúlio Vargas, atua na área da comunicação há 14 anos. Antes de assumir a Gerência de Marketing da EBC, atuou como Gerente de Publicidade e Diretora-substituta de Marketing da Embratur . Atuava como gestora dos contratos com as agências de publicidade licitadas e respondia pelas Gerências de Relações Públicas e de Comunicação Digital enquanto Diretora. Representava a autarquia como porta-voz oficial em eventos no exterior. Anteriormente, atuou como Coordenadora de Mídia em agências de publicidade em Brasília, Coordenadora de Marketing da Emissora Televisiva SBT, Executiva de Atendimento, Coordenadora no Núcleo de Mídia da Caixa Econômica Federal e analista de Marketing da rádio Jovem Pan.</p>  
+                </div>
+-->
+                <div id="foto7_info" class="infobox">
+                    <img src="images/7.jpg">
+                    <h4>Elma de Almeida</h4>
+                    <p class="cargo">Gerente Executiva de Conteúdo</p>
+                    <p>Jornalista, mais de 30 anos de experiência nos mercados de Belo Horizonte, São Paulo e Brasília, com passagens por redes nacionais de TV (Globo, Band, SBT e Record), além de participação no projeto de democratização da TV Cultura de São Paulo, nos anos 80. Destaque ainda para trabalhos na imprensa escrita como Agência Folha e Correio Braziliense.<br /><br/>Atualmente, exerce a função de Gerente Executiva de Conteúdo responsável por todos os produtos da Diretoria de Captação e Serviços nas áreas de televisão, rádio e web, respondendo também pela grade de programação da TV NBR e pelo setor de Monitoramente de Mídia, que inclui o clipping da Mídia Impressa, da Mídia Eletrônica e o Banco de Notícias.</p>  
+                </div>
+                <div id="foto8_info" class="infobox">
+                    <img src="images/8.jpg">
+                    <h4>Daniel Henrique Costa e Costa</h4>
+                    <p class="cargo">Gerente de Produção</p>
+                    <p>Iniciou sua experiência profissional em 1998 no programa Brasília Urgente na Tv Bandeirantes. De lá pra cá atuou como produtor, diretor de programas, repórter, editor-chefe e coordenador na Tv Brasília, Rádio Justiça, Rádio Transamérica, Rádio Nacional da Amazônia e Tv NBR. Também produziu e dirigiu o documentário “Direito Iguais: Nem Mais, Nem Menos”.<br /><br/>Atualmente é o gerente de produção da TV NBR e a A Voz do Brasil. Gerencia uma equipe de cerca de 90 pessoas nas áreas de pauta, produção, reportagem, edição, web, transmissões ao vivo e cinegrafia. Responsável pelos processos de transmissões ao vivo e cobertura jornalística com o foco na divulgação de políticas públicas e ações do governo federal, além da agenda da presidenta da república, sempre com o foco no cidadão.</p>  
+                </div>
+                <div id="foto9_info" class="infobox">
+                    <img src="images/9.jpg">
+                    <h4>José Luiz Lima</h4>
+                    <p class="cargo">Gerente de Monitoramento e Análise de Mídia</p>
+                    <p>Jornalista Profissional pela Universidade Federal do Rio Grande do Sul, 33 anos de experiência – radiojornalismo, jornalismo impresso, assessoria de comunicação empresarial e governamental. Atuou 6 anos no Jornal O Globo, free lancer para Jornal do Brasil, O Estado de S. Paulo e Folha de S. Paulo, 3 anos e meio na Secretaria de Imprensa da Presidência da República, 2 como Gerente Nacional de Comunicação Interna da Caixa Econômica Federal, 4 anos como Coordenador de Comunicação da Secretaria de Justiça e Segurança do Governo do Rio Grande do Sul.<br /><br/>Atualmente é responsável pela produção da Mídia Impressa, um dos mais tradicionais produtos de monitoramento de mídia do país, e pelo Banco de Notícias, site de clipping da EBC que acompanha noticiário de rádio, televisão, jornais e revistas.</p>  
+                </div>
+                <div id="foto10_info" class="infobox">
+                    <img src="images/10.jpg">
+                    <h4>Jeanne Oliveira</h4>
+                    <p class="cargo">Gerente de Criação</p>
+                    <p>Formada em Comunicação Social com habilitação em Publicidade e Propaganda e em Belas Artes com habilitação em Cinema de Animação. Ingressou na empresa em 2005, ainda na extinta Radiobrás, para atuar como diretora de arte no canal internacional, do qual foi também coordenadora de Programação. Antes disso, atuou em Belo Horizonte como diretora de arte em projetos de TV e web atendendo clientes como Usiminas, Magnesita, Fiat e Band Minas. Também trabalhou no portal Cinema em Cena, pelo qual ganhou o prêmio Ibest de melhor campanha de marketing.
+					<br/>Atualmente é gerente de Criação da Diretoria de Captação e Serviços da EBC. Responde pela criação de vinhetas, programetes, vídeos institucionais e peças para web, com destaque para a identidade visual da TV NBR. Para isso conta com uma equipe multidisciplinar capaz de produzir peças em diversos formatos.</p>  
+                </div>
+                <div id="foto11_info" class="infobox">
+                    <img src="images/11.jpg">
+                    <h4>Vicente Carvelo Neto</h4>
+                    <p class="cargo">Gerente de Operações</p>
+                    <p>Técnico em Rádio e Televisão, 30 anos de experiência, se especializando em gestão de pessoal e geração e produção de eventos externos, tendo trabalhado por 24 anos na TV Anhanguera/Globo sendo responsável pela gerência operacional e de produção, 3 anos na TV Goiânia/Band, 3 anos TV Cultura/Brasília, como coordenador técnico operacional da TV Justiça.<br /><br/>Atualmente é responsável por toda área operacional da TV NBR, procurando promover a nosso cliente, excelência e satisfação na prestação do serviço que compreende captação e geração do conteúdo.</p>  
+                </div>
+                
+<!--             
+                <div id="foto13_info" class="infobox">
+                    <img src="images/13.jpg">
+                    <h4>Sahada Josephine Luedy</h4>
+                    <p class="cargo">Gerente de Selos e Marcas</p>
+                    <p>
+					Graduada em Psicologia, com mestrado em Comunicação, Imagem e Informação pela Universidade Federal Fluminense. Começou a trabalhar em televisão na Starlights, em Nova York, como estagiária. Trabalhou na TV Aratu e na TVE (Bahia) e na TV Manchete (Brasília). Experiência profissional em agência de publicidade baianas na áreas de atendimento governamental e planejamento. Coordenou a propaganda da Prefeitura de Salvador. Durante 5 anos foi Diretora de Operações do Instituto de Radiodifusão Educativa da Bahia (IRDEB) que engloba a TVE e a Rádio Educadora. Atualmente, é Gerente de Marcas e Selo da DICAP RIO. </p>  
+                </div>
+-->
+                <div id="foto14_info" class="infobox">
+                    <img src="images/14.jpg">
+                    <h4>Antônio Marinho</h4>
+                    <p class="cargo">Gerente de Publicidade Legal</p>
+                    <p>Administrador de Empresa formado pela Universidade Católica de Brasília. Empregado do Quadro da EBC, com 23 anos de experiência nas áreas de O&M, de Assessoria Administrativa, de Licitação, de Publicidade Legal e de Gestão de Contratos. Especializado em Análise e Desenvolvimento de Projetos, e concluindo a especialização em Gestão de Contratos.<br/><br/>Atualmente, Gerente da Área de Publicidade Legal, responsável pelas atividades de produção e distribuição da publicidade legal dos órgãos e entidades da Administração Federal em veículo comerciais impressos ou eletrônicos, no país ou no exterior, serviço de grande importância na captação de receita para a EBC.</p>  
+                </div>
+                
+                <div id="foto16_info" class="infobox">
+                    <img src="images/16.jpg">
+                    <h4>Benito Avarez Rizzi</h4>
+                    <p class="cargo">Unidade de Captação - São Paulo</p>
+                    <p>Estudou inglês no Hammersmith and West London College, economia na FEA USP e trabalha como publicitário desde 1984. Foi diretor de criação e atendimento de diversas agências de publicidade, chefe do Departamento de Propaganda e Promoção da Eletropaulo , gerente comercial da TV Gazeta, diretor de marketing e expansão do projeto Talentos Brilhantes, diretor de marketing e novos negócios do Grupo Diário de Guarulhos e criador da Simples 3, agência especializada em captação de recursos para o terceiro setor.<br/><br/> Atuou junto à ABEPEC coordenando a comunicação do II Fórum Nacional de TVs Públicas. Trabalhou na área de Relações Corporativas da Humanitare (ONG ligada à ONU), foi sócio e diretor de marketing do Guia fazer Acontecer e, atualmente, atua na gerência de captação da DICAP em São Paulo.</p>  
+                </div>
+                
+
+
+<!--
+                <div id="foto19_info">
+                    <img src="images/19.jpg">
+                    <h4>Janete Coelho</h4>
+                    <p class="cargo">Secretária</p>
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>  
+                </div>
+-->
+            </div>
+
+            
+        </div>
+    </div>
+</body>
+</html>

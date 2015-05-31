@@ -1,0 +1,240 @@
+<html>
+<head>
+	<title>EBC para o mercado</title>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" type="text/css" href="css/shadowbox.css">
+    <link rel="stylesheet" href="css/jquery.lightbox-0.5.css">
+           
+    <script type="text/javascript" src="js/jquery-1.8.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui-1.8.23.custom.min.js"></script>
+	<script type="text/javascript" src="js/shadowbox.js"></script>
+	<script type="text/javascript" src="js/fancydropdown.js"></script>
+    <script type="text/javascript" src="js/jquery.lightbox-0.5.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/shadowbox.css">
+	<script type="text/javascript" src="js/shadowbox.js"></script>
+    
+	<script type="text/javascript">
+	Shadowbox.init({  
+	language: 'pt',  
+	player: ['img', 'html', 'swf']  
+	});
+	</script>
+    
+    <script>
+	$(function () {
+		$('.dropdown').each(function () {
+			$(this).parent().eq(0).hover(function () {
+				$('.dropdown:eq(0)', this).show();
+			}, function () {
+				$('.dropdown:eq(0)', this).hide();
+			});
+		});
+	});
+	
+    $(function() {
+	    $('a.lightbox').lightBox();
+	    $('a.lightbox1').lightBox();
+	    $('a.lightbox2').lightBox();
+	    $('a.lightbox3').lightBox();
+	    $('a.lightbox4').lightBox();
+	    $('a.lightbox5').lightBox();
+	});
+	
+
+	$(function () {
+		$('.menu').click(function() {
+            $("#content-1").hide();
+            $("#content-2").hide();
+            $("#content-3").hide();
+            $("#content-4").hide();
+            $("#content-5").hide();
+            $("#content-6").hide();
+            $("#content-7").hide();
+            selected = "#" + $(this).attr("rel");
+            html = "Selecione: " + $(this).text();
+            $("#nomeradio").html(html);
+            $(selected).show();
+            $('.dropdown').hide();
+            
+        });
+    });		
+		
+		
+
+
+    </script>
+</head>
+
+<body>
+
+	<div id="wrapper">
+		<div class="bulletmidia">midia</div>
+		<div id="header">
+			<a class="home" href="index.html"></a>
+		    <a class="contato" href="contato.html"></a>
+			<a class="pdf" target="_blank" href="ebcparaomercado.pdf"></a>
+			<a class="produtos" href="produtos.html"></a>
+			<a class="midiakit" href="midia.html"></a>
+			<a class="ebctopo" href="ebc.html"></a>
+		</div>
+		
+		<div id="barra" class="radio"><span>Rádios</span></div>
+
+		<div id="content">
+			<div id="menu">
+			<ul class="tabs">
+				<li class="hasmore"><a href="#"><span id="nomeradio">Selecione: Rádio Nacional de Brasília - AM</span></a>
+					<ul class="dropdown">
+						<li><a href="#" class="menu" rel="content-1">Rádio Nacional de Brasília - AM</a></li>
+						<li><a href="#" class="menu" rel="content-2">Rádio Nacional de Brasília - FM</a></li>
+						<li><a href="#" class="menu" rel="content-3">Rádio Nacional do Rio de Janeiro – AM</a></li>
+						<li><a href="#" class="menu" rel="content-4">Rádio MEC AM – Rio de Janeiro</a></li>
+						<li><a href="#" class="menu" rel="content-5">Rádio MEC FM – Rio de Janeiro</a></li>
+						<li><a href="#" class="menu" rel="content-6">Rádio Nacional da Amazônia</a></li>
+						<li class="last"><a href="#" class="menu" rel="content-7">Nacional do Alto Solimões</a></li>
+					</ul>
+				</li>
+			</div>
+				
+         
+            
+            <div id="content-1"  class="radiofundo1">
+                <div id="barra-esquerda" style="height: 403px; margin-top: 30px">
+                   <a href="images/perf_bsb_nacional_am.png" rel="shadowbox"><img src="images/perfil_radio.png"></a> 
+                   <a href="tabela-radios-2013.pdf" target="_blank"><img src="images/tabela-precos-radio.png"></a> 
+                </div>
+
+                <div id="texto" style="height: 433px">
+                    <p class="tituloradios">Brasília em Sintonia</p>
+                    <p><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,0,0" width="15" height="15"><PARAM NAME=movie VALUE="http://www.strangecube.com/audioplay/online/audioplay.swf?file=http://radioslivres.radiobras.gov.br:8080/nacionalam.mp3&auto=false&mastervol=30&sendstop=yes&repeat=0&buttondir=http://www.strangecube.com/audioplay/online/alpha_buttons/negative_small&bgcolor=0xffffff&mode=playstop&mastervol=20"><PARAM NAME=quality VALUE=high><PARAM NAME=mastervol VALUE=20><PARAM NAME=wmode VALUE=transparent><embed src="http://www.strangecube.com/audioplay/online/audioplay.swf?file=http://radioslivres.radiobras.gov.br:8080/nacionalam.mp3&auto=false&sendstop=yes&repeat=0&buttondir=http://www.strangecube.com/audioplay/online/alpha_buttons/negative_small&bgcolor=0xffffff&mode=playstop&mastervol=20" quality=high wmode=transparent width="15" height="15" align="" TYPE="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed></object>
+                       Primeira emissora de rádio de Brasília. Com infraestrutura de última geração, transmite para o Distrito Federal, durante o dia, e para todo o Brasil, durante a noite. </p><br>
+                    <p>Permanece 24 horas no ar, com mais de 90% do seu conteúdo transmitido ao vivo. Uma verdadeira fonte de informação para população que se mantém informada sobre assuntos nas mais diversas áreas.</p>
+					
+					
+
+                </div>
+            </div>
+            
+            <div id="content-2"  class="radiofundo2" style="display: none">
+                <div id="barra-esquerda"  style="height: 403px; margin-top: 30px">
+                    <a href="images/perf_bsb_nacional_fm.png" class="lightbox2"><img src="images/perfil_radio.png"></a>  
+                   <a href="tabela-radios-2013.pdf" target="_blank"><img src="images/tabela-precos-radio.png"></a>                                       
+                </div>
+                <div id="texto"  style="height: 433px">
+                    <p class="tituloradios">O Brasil toca aqui</p>
+                    <p><p><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,0,0" width="15" height="15"><PARAM NAME=movie VALUE="http://www.strangecube.com/audioplay/online/audioplay.swf?file=http://radioslivres.radiobras.gov.br:8080/nacionalfm.mp3&auto=false&mastervol=30&sendstop=yes&repeat=0&buttondir=http://www.strangecube.com/audioplay/online/alpha_buttons/negative_small&bgcolor=0xffffff&mode=playstop&mastervol=20"><PARAM NAME=quality VALUE=high><PARAM NAME=mastervol VALUE=20><PARAM NAME=wmode VALUE=transparent><embed src="http://www.strangecube.com/audioplay/online/audioplay.swf?file=http://radioslivres.radiobras.gov.br:8080/nacionalfm.mp3&auto=false&sendstop=yes&repeat=0&buttondir=http://www.strangecube.com/audioplay/online/alpha_buttons/negative_small&bgcolor=0xffffff&mode=playstop&mastervol=20" quality=high wmode=transparent width="15" height="15" align="" TYPE="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed></object>
+                        É líder de audiência dentro do seu perfil de programação e se destaca por incentivar eventos culturais e artistas locais. Por alcançar um público economicamente ativo, com nível de escolaridade alto,  muitos dos seus ouvintes a acompanham também pela internet.
+						</p><br>
+                    <p class="textoradio2">	Com programação voltada para MPB, samba, música instrumental, cultura independente e produção local, a emissora também abre espaço para músicas estrangeiras, com destaque aos países de língua portuguesa e da América Latina, e está sempre presente em coberturas de festivais de música e de cultura popular nos diversos estados brasileiros.
+					</p>
+                    <div class="player"></div>
+                    
+                </div>
+            </div>
+            
+            <div id="content-3"  class="radiofundo3" style="display: none">
+                <div id="barra-esquerda"  style="height: 403px; margin-top: 30px">
+                    <a href="images/perf_rj_nacional_am.png" class="lightbox3"><img src="images/perfil_radio.png"></a>                                        
+                   <a href="tabela-radios-2013.pdf" target="_blank"><img src="images/tabela-precos-radio.png"></a>                      
+                </div>
+                <div id="texto"  style="height: 433px">
+                    <p class="tituloradios">O Som da tradição</p>
+                    <p><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,0,0" width="15" height="15"><PARAM NAME=movie VALUE="http://www.strangecube.com/audioplay/online/audioplay.swf?file=http://radioslivres.radiobras.gov.br:8080/nacionalrio.mp3&auto=false&mastervol=30&sendstop=yes&repeat=0&buttondir=http://www.strangecube.com/audioplay/online/alpha_buttons/negative_small&bgcolor=0xffffff&mode=playstop&mastervol=20"><PARAM NAME=quality VALUE=high><PARAM NAME=mastervol VALUE=20><PARAM NAME=wmode VALUE=transparent><embed src="http://www.strangecube.com/audioplay/online/audioplay.swf?file=http://radioslivres.radiobras.gov.br:8080/nacionalrio.mp3&auto=false&sendstop=yes&repeat=0&buttondir=http://www.strangecube.com/audioplay/online/alpha_buttons/negative_small&bgcolor=0xffffff&mode=playstop&mastervol=20" quality=high wmode=transparent width="15" height="15" align="" TYPE="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed></object>
+                        Inaugurada em 1936, desbravou novos gêneros da linguagem sonora. Sua programação consolidou as matrizes do rádio popular no país, ao reunir na mesma grade, música, informação, humor, dramaturgia, esporte e programas de auditório.</p><br>
+                    <p>	Nos fins de semana, o destaque fica por conta das transmissões ao vivo de futebol. É também reconhecida pela sua tradição e importância na construção da comunicação radiofônica do país.
+					</p>
+
+                    
+                </div>
+            </div>
+            
+            <div id="content-4" class="radiofundo4" style="display: none">
+                <div id="barra-esquerda"  style="height: 403px; margin-top: 30px">
+                    <a href="images/perf_rj_mec_am.png" class="lightbox4"><img src="images/perfil_radio.png"></a>                    
+                   <a href="tabela-radios-2013.pdf" target="_blank"><img src="images/tabela-precos-radio.png"></a>                     
+                </div>
+                <div id="texto"  style="height: 433px">
+                    <p class="tituloradios">Sempre a primeira</p>
+                    <p>
+                        <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,0,0" width="15" height="15"><PARAM NAME=movie VALUE="http://www.strangecube.com/audioplay/online/audioplay.swf?file=http://radioslivres.radiobras.gov.br:8080/mecam.mp3&auto=false&mastervol=30&sendstop=yes&repeat=0&buttondir=http://www.strangecube.com/audioplay/online/alpha_buttons/negative_small&bgcolor=0xffffff&mode=playstop&mastervol=20"><PARAM NAME=quality VALUE=high><PARAM NAME=mastervol VALUE=20><PARAM NAME=wmode VALUE=transparent><embed src="http://www.strangecube.com/audioplay/online/audioplay.swf?file=http://radioslivres.radiobras.gov.br:8080/mecam.mp3&auto=false&sendstop=yes&repeat=0&buttondir=http://www.strangecube.com/audioplay/online/alpha_buttons/negative_small&bgcolor=0xffffff&mode=playstop&mastervol=20" quality=high wmode=transparent width="15" height="15" align="" TYPE="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed></object>
+                        Sinônimo de educação e cultura, a Rádio MEC foi criada em 1923 por Roquette-Pinto, tornando-se a primeira emissora radiofônica do Brasil. Sua grade diversificada reúne desde debates, a agendas culturais e noticiários. Sua programação musical contempla a diversidade da música popular brasileira e os programas de auditório são uma tradição na emissora.</p>
+
+
+                </div>
+            </div>
+            
+            <div id="content-5" class="radiofundo5" style="display: none">
+                <div id="barra-esquerda"  style="height: 403px; margin-top: 30px">
+                    <a href="images/perf_rj_mec_fm.png" class="lightbox5"><img src="images/perfil_radio.png"></a>                    
+                   <a href="tabela-radios-2013.pdf" target="_blank"><img src="images/tabela-precos-radio.png"></a>                     
+                </div>
+                <div id="texto"  style="height: 433px">
+                    <p class="tituloradios">Um clássico das rádios brasileiras</p>
+                    <p><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,0,0" width="15" height="15"><PARAM NAME=movie VALUE="http://www.strangecube.com/audioplay/online/audioplay.swf?file=http://radioslivres.radiobras.gov.br:8080/mecfm.mp3&auto=false&mastervol=30&sendstop=yes&repeat=0&buttondir=http://www.strangecube.com/audioplay/online/alpha_buttons/negative_small&bgcolor=0xffffff&mode=playstop&mastervol=20"><PARAM NAME=quality VALUE=high><PARAM NAME=mastervol VALUE=20><PARAM NAME=wmode VALUE=transparent><embed src="http://www.strangecube.com/audioplay/online/audioplay.swf?file=http://radioslivres.radiobras.gov.br:8080/mecfm.mp3&auto=false&sendstop=yes&repeat=0&buttondir=http://www.strangecube.com/audioplay/online/alpha_buttons/negative_small&bgcolor=0xffffff&mode=playstop&mastervol=20" quality=high wmode=transparent width="15" height="15" align="" TYPE="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed></object>
+                        Dedica 85% de sua grade à transmissão de música clássica ou de concerto, na voz de grandes compositores brasileiros e internacionais. A programação se complementa com Jazz, Choro, Bossa Nova, música de cinema, música instrumental e produções de vanguarda.</p><br>
+                    <p>Atinge um público altamente segmentado, concentrado em sua maior parte na Zona Sul e Niterói. É a única rádio no Rio de Janeiro dedicada a este segmento musical.</p>
+                    <br><p>Em Brasília, a Rádio MEC AM retransmite toda a sua programação.</p>
+
+                </div>
+            </div>
+            
+            <div id="content-6" class="radiofundo6" style="display: none">
+                <div id="barra-esquerda"  style="height: 433px">
+                   <a href="tabela-radios-2013.pdf" target="_blank"><img src="images/tabela-precos-radio.png"></a>                     
+                </div>
+                <div id="texto"  style="height: 433px">
+                    <p class="tituloradios">O Orelhão da Amazônia</p>
+                    <p><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,0,0" width="15" height="15"><PARAM NAME=movie VALUE="http://www.strangecube.com/audioplay/online/audioplay.swf?file=http://radioslivres.radiobras.gov.br:8080/nacionalocam.mp3&auto=false&mastervol=30&sendstop=yes&repeat=0&buttondir=http://www.strangecube.com/audioplay/online/alpha_buttons/negative_small&bgcolor=0xffffff&mode=playstop&mastervol=20"><PARAM NAME=quality VALUE=high><PARAM NAME=mastervol VALUE=20><PARAM NAME=wmode VALUE=transparent><embed src="http://www.strangecube.com/audioplay/online/audioplay.swf?file=http://radioslivres.radiobras.gov.br:8080/nacionalocam.mp3&auto=false&sendstop=yes&repeat=0&buttondir=http://www.strangecube.com/audioplay/online/alpha_buttons/negative_small&bgcolor=0xffffff&mode=playstop&mastervol=20" quality=high wmode=transparent width="15" height="15" align="" TYPE="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed></object>
+                        Principal canal de comunicação da região Amazônica, a Rádio presta um importante papel social à população local, difundindo conhecimento a um povo rico em história e cultura, porém afastado do resto do país. É carinhosamente chamada de “Orelhão da Amazônia” e mantém ouvintes fiéis, com alto grau de afinidade, além de um forte reconhecimento nacional por seu trabalho na região.</p><br>
+                    <p>Opera em Ondas Curtas e atinge mais da metade do território nacional, com potencial de cobertura de 60 milhões de habitantes. Seu sinal cobre toda a Região Norte, além de Maranhão, Piauí, Bahia, Minas Gerais, Mato Grosso, Goiás e outros estados.</p>
+                   
+
+                </div>
+            </div>
+            
+            <div id="content-7" class="radiofundo7" style="display: none">
+                <div id="barra-esquerda"  style="height: 433px">
+                </div>
+                <div id="texto"  style="height: 433px">
+                    <p class="tituloradios">Única na região</p>
+                    <p>É a única emissora de rádio em Tabatinga. Sua programação transmite informação local e nacional, com destaque para a produção da própria região. Localizada no Amazonas, na região da Tríplice Fronteira – Brasil, Colômbia e Peru -, a emissora liga os nove municípios da região do Alto Solimões, servindo de ponte para informação e comunicação dos povos e das comunidades.</p>
+                </div>
+            </div>
+            		
+		</div>
+
+
+
+		<ul id="navigationMenu">
+			<li><a class="tvs" href="midia-tv.html"><span>TVs</span></a></li>
+			<li><a class="radios" href="midia-radio.html"><span>Rádios</span></a></li>
+			<li><a class="internet" href="midia-internet.html"><span>Internet</span></a></li>
+			<li><a class="projetos" href="midia-projetos.html"><span>Projetos</span></a></li>
+			<li><a class="paraanunciar" href="midia-comoapoiar.html"><span>Como apoiar</span></a></li>
+		</ul>
+
+
+
+	</div>
+
+	<div id="footer">
+		EBC - DINES
+	</div>
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-12972004-8']);
+      _gaq.push(['_setDomainName', 'ebc.com.br']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>	
+</body>
+</html>

@@ -1,0 +1,115 @@
+#navigationMenu li,
+#navigationMenuOpen li {
+	list-style:none;
+	height:50px;
+	width:40px;
+}
+
+#navigationMenu span,
+#navigationMenuOpen span{
+	width:0;
+	right:80px;
+	padding:0;
+	position:absolute;
+	overflow:hidden;
+	font-family:'Myriad Pro',Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	letter-spacing:0.6px;
+	white-space:nowrap;
+	line-height:50px;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	transition: 0.5s;
+}
+
+#navigationMenu a,
+#navigationMenuOpen a{
+	background:url('../images/menu-midia.png') no-repeat;
+	height:50px;
+	width:80px;
+	display:block;
+	position:relative;
+	text-decoration:none;	
+}
+
+#navigationMenuOpen a span{ 
+	width:auto; 
+	padding:0 20px;
+	overflow:visible; 
+}
+
+#navigationMenu a:hover span{ 
+	width:auto; 
+	padding:0 20px;
+	overflow:visible; 
+}
+
+
+
+
+#navigationMenu .ebc,
+#navigationMenuOpen  .ebc { background-position:0 0;}
+#navigationMenu .ebc:hover,
+#navigationMenuOpen .ebc:hover   { background-position:0 0px;}
+#navigationMenu .ebc span,
+#navigationMenuOpen .ebc span {
+	background-color:#76787C;
+	color:#ffffff;
+	text-shadow:1px 1px 0 #BABCC1;
+}
+
+#navigationMenu .tvs,
+#navigationMenuOpen .tvs { background-position:0 0;}
+#navigationMenu .tvs:hover,
+#navigationMenuOpen .tvs:hover { background-position:0 0;}
+#navigationMenu .tvs span,
+#navigationMenuOpen .tvs span {
+	background-color:#12254B;
+	color:#ffffff;
+	text-shadow:1px 1px 0 #188CB6;
+}
+
+#navigationMenu .radios,
+#navigationMenuOpen .radios { background-position:0 -50px;}
+#navigationMenu .radios:hover,
+#navigationMenuOpen .radios:hover { background-position:0 -50px;}
+#navigationMenu .radios span,
+#navigationMenuOpen .radios span{
+	background-color:#F0554B;
+	color:#ffffff;
+	text-shadow:1px 1px 0 #A11D21;
+}
+
+#navigationMenu .internet,
+#navigationMenuOpen .internet { background-position:0 -100px;}
+#navigationMenu .internet:hover,
+#navigationMenuOpen .internet:hover{ background-position:0 -100px;}
+#navigationMenu .internet span,
+#navigationMenuOpen .internet span{
+	background-color:#E7A735;
+	color:#ffffff;
+	text-shadow:1px 1px 0 #F36D2C;
+}
+
+#navigationMenu .projetos,
+#navigationMenuOpen .projetos { background-position:0 -150px;}
+#navigationMenu .projetos:hover,
+#navigationMenuOpen .projetos:hover { background-position:0 -150px;}
+#navigationMenu .projetos span,
+#navigationMenuOpen .projetos span{
+	background-color:#37B34A;
+	color:#ffffff;
+	text-shadow:1px 1px 0 #764C28;
+}
+
+#navigationMenu .paraanunciar,
+#navigationMenuOpen .paraanunciar { background-position:0 -200px;}
+#navigationMenu .paraanunciar:hover,
+#navigationMenuOpen .paraanunciar:hover { background-position:0 -200px;}
+#navigationMenu .paraanunciar span,
+#navigationMenuOpen .paraanunciar span{
+	background-color:#986D50;
+	color:#ffffff;
+	text-shadow:1px 1px 0 #821E53;
+}

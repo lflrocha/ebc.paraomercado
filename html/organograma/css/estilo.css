@@ -1,0 +1,364 @@
+@charset "UTF-8";
+
+html {
+    overflow-y: scroll;
+}
+
+body{
+    font:13px "Trebuchet MS", Arial, Helvetica, sans-serif;	
+    color:#ffffff;
+    overflow-y: visible;
+}
+
+p{
+    line-height:13px;
+}
+
+
+a{
+    outline:none;	
+    text-decoration:none;
+    color:#397531;
+    font-weight: bold;
+}
+
+a:hover{
+    color:#264E1F;	
+}
+
+#wrapper{
+    width: 920px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+
+/* Menu principal */
+
+.splitter {
+    float: left;
+    width: 920px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 0px;
+    text-align: center;
+    word-spacing: 20px;
+    padding-left: 0px;
+}
+
+.splitter li {
+    display: inline;
+    display: inline-block;
+    line-height: 1;
+    margin-left: 0px;	
+}
+
+.dicap {
+	display: block;
+	float: left;
+	background-image:url('../images/menu_dicap2.png');
+	text-indent: 99999px;
+	background-position:top;
+	height: 40px;
+	width: 180px;
+}
+
+.dicap:hover{
+	background-position:bottom;
+}
+
+.negocios {
+	display: block;
+	float: left;
+	background-image:url('../images/menu_negocios2.png');
+	text-indent: 99999px;
+	background-position:top;
+	height: 40px;
+	width: 180px;
+}
+
+.negocios:hover{
+	background-position:bottom;
+}
+
+.conteudo {
+	display: block;
+	float: left;
+	background-image:url('../images/menu_conteudo2.png');
+	text-indent: 99999px;
+	background-position:top;
+	height: 40px;
+	width: 180px;
+}
+
+.conteudo:hover{
+	background-position:bottom;
+}
+
+.marketing {
+	display: block;
+	float: left;
+	background-image:url('../images/menu_marketing2.png');
+	text-indent: 99999px;
+	background-position:top;
+	height: 40px;
+	width: 180px;
+}
+
+.marketing:hover{
+	background-position:bottom;
+}
+
+#equipe{
+	display: block;
+	float: left;
+	background:url('../images/menu_equipe.png') no-repeat center;
+	text-indent: 99999px;
+	background-position:top;
+	height: 40px;
+	width: 900px;
+	margin-bottom: 20px;
+
+}
+
+#equipe:hover{
+	background-position:bottom;
+}
+
+
+.active a{
+	background-position: bottom !important;
+}
+
+.all{
+	display: block;
+	float: left;
+	background:url('../images/menu_equipe.png') no-repeat center;
+	text-indent: 99999px;
+	background-position:top;
+	height: 40px;
+	width: 900px;
+	margin-bottom: 20px;
+}
+
+#logo{
+    width: 220px;
+    height: 80px;
+    margin-right: 680px;
+    margin-bottom: 5px;
+}
+
+
+
+/* Fotos */
+
+.fotos{
+}
+
+
+.image-grid {
+    float: left;
+    width: 920px;
+    height: 450px;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background: transparent;
+}
+
+.image-grid li {
+    width: 150px;
+    margin: 0;
+    float: left;
+    text-align: center;
+    font-family: "Helvetica Neue", sans-serif;
+    color: #686f74;
+    height: 150px;
+    overflow: hidden;
+}
+
+.mosaic-block {
+    height: 150px;
+    width: 150px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+}
+
+.mosaic-backdrop {
+    position: absolute;
+    top: 0;
+    display: block;
+}
+
+.mosaic-overlay {
+    height: 150px;
+    width: 150px;
+    background: url("../images/bg-blue.png") repeat scroll 0 0;
+    z-index: 5;
+    display: block;
+    bottom: -150px;
+    position: absolute;
+}
+
+.mosaic-overlayblue {
+    height: 150px;
+    width: 150px;
+    background: url("../images/bg-blue.png") repeat scroll 0 0;
+    z-index: 5;
+    display: block;
+    bottom: -150px;
+    position: absolute;
+} 
+
+.mosaic-overlayred {
+    height: 150px;
+    width: 150px;
+    background: url("../images/bg-red.png") repeat scroll 0 0;
+    z-index: 5;
+    display: block;
+    bottom: -150px;
+    position: absolute;
+}
+
+.mosaic-overlaygreen {
+    height: 150px;
+    width: 150px;
+    background: url("../images/bg-green.png") repeat scroll 0 0;
+    z-index: 5;
+    display: block;
+    bottom: -150px;
+    position: absolute;
+}
+
+.mosaic-overlayyellow {
+    height: 150px;
+    width: 150px;
+    background: url("../images/bg-yellow.png") repeat scroll 0 0;
+    z-index: 5;
+    display: block;
+    bottom: -150px;
+    position: absolute;
+}
+
+
+
+.fancy {
+    display: block;
+    height: 149px;
+    width: 149px;
+    
+}
+
+.mosaic-content {
+    margin: 80px 2px;
+    text-align: center;
+    vertical-align: middle;   
+    display: block; 
+}
+
+.nome{
+    font:13px "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+
+.cargo{
+    font:10.5px "Trebuchet MS", Arial, Helvetica, sans-serif;	
+    color: #fff;
+    font-weight: normal;
+}
+
+#rodape{
+    width:900px;
+    height: 40px;
+    float: left;
+    text-align: center;
+    margin: 50px 0;
+    background-color: #173f75;
+    color: #fff;
+}
+
+.mosaic-content span {
+    display: none;
+    
+}
+
+
+
+
+.hidden {
+    display: none;
+}
+
+
+
+
+
+/* General Info Box */
+#infobox{
+position:absolute;
+float: right;
+bottom:-500px;
+margin: 0 15%;
+height:400px;
+width:600px;
+z-index:150;
+background:#FFF;
+overflow:hidden;
+}
+
+.infobox img{
+	float: left;
+    margin-left: 10px;
+   margin-right: 10px;
+   margin-top: 10px;
+   position: relative;
+}
+
+.infobox span{
+position:absolute;
+right: 5px;
+margin-top: 5px !important;
+}
+
+.infobox p{
+	float: left;
+	    margin: 20px 10px;
+	    position: relative;
+	    text-align: justify;
+	    width: 500px;
+	line-height: 15px;
+
+}
+
+.infobox .cargo{
+	color: #666;
+	margin: 0 0px !important;
+	font:14px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	width: 320px;
+}
+
+.infobox h4{
+position: relative;
+width: 300px;
+float: left;
+margin: 50px 0 0 0px;
+text-align: left;
+font: 28px Arial, Helvetica, sans-serif;
+font-weight: bold;
+color: #76787c;
+}
+
+.infobox a, 
+.infobox a:visited{
+font:italic 16px Georgia, serif;
+color:#555;
+text-decoration:none;
+}
+
+.infobox a:hover{
+text-decoration:underline;
+}
+	
+/* Close button for info box */

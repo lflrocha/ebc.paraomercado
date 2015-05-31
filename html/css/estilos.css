@@ -1,0 +1,761 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body {
+	background-color: #3C3C3C;
+	font-family:'Myriad Pro',Arial, Helvetica, sans-serif;		
+}
+
+#wrapper {
+	width: 900px;
+	margin: 0 auto;
+	height: 680px;
+  	position:relative;
+	background-color: #3C3C3C;
+}
+
+#sb-body, #sb-loading {
+    background-color: #ffffff !important;
+}
+
+#header {
+	background-image: url('../images/topo.png');
+	width: 900px;
+	height: 100px;
+}
+
+.bulletebc{
+	position: absolute;
+	background: url("../images/bullet.png") no-repeat;
+	width: 15px;
+	height: 11px;
+	z-index: 9;
+	left: 502px;
+	top: 80px;
+	text-indent: -9999px;
+}
+
+.bulletmidia{
+	position: absolute;
+	background: url("../images/bullet.png") no-repeat;
+	width: 15px;
+	height: 11px;
+	z-index: 9;
+	left: 549px;
+	top: 81px;
+	text-indent: -9999px;
+}
+
+.bulletprodutos{
+	position: absolute;
+	background: url("../images/bullet.png") no-repeat;
+	width: 10px;
+	height: 7px;
+	z-index: 9;
+	left: 602px;
+	top: 81px;
+	text-indent: -9999px;
+}
+
+.bulletcontato{
+	position: absolute;
+	background: url("../images/bullet.png") no-repeat;
+	width: 10px;
+	height: 7px;
+	z-index: 9;
+	left: 819px;
+	top: 81px;
+	text-indent: -9999px;
+}
+
+#barra {
+	width: 900px;
+	height: 50px;
+	margin-top: -1px;
+}
+
+#barra span {
+	font-family:'Myriad Pro',Arial, Helvetica, sans-serif;	
+	display: block;
+	width: 900px;
+	height: 30px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 30px;
+	padding-left: 10px;
+	padding-top: 10px;
+	text-align: center;
+}
+
+.ebc  { background-color: #BABBC0; }
+.tv { background-color: #008BB5; }
+.radio { background-color: #A01D21; }
+.internet {	background-color: #F26D2A; }
+.projetos {	background-color: #006838; }
+.produtoseservicos {	background-color: #7ab5c6; }
+.paraanunciar {	background-color: #754C28; }
+.locacao {	background-color: #d1c316; }
+
+#content {
+	width: 900px;
+	height: 520px;
+	background-color: #fff;
+	float: left;
+}
+
+.midiafundo{	float: left; background: url(../images/bgmidia.jpg) no-repeat bottom left; }
+
+.ebcfundo1{	float: left; background: url(../images/bgebc1.jpg) no-repeat bottom left; }
+.ebcfundo2{	float: left; background: url(../images/bgebc2.jpg) no-repeat bottom left; }
+.ebcfundo3{	float: left; background: url(../images/bgebc3.jpg) no-repeat bottom center; }
+.ebcfundo4{	float: left; background: url(../images/bgebc4.jpg) no-repeat bottom left; }
+.ebcfundo5{	float: left; background: url(../images/bgebc5.jpg) no-repeat bottom left; }
+
+
+.tvfundo1{	float: left; background: url(../images/bgtv1.jpg) no-repeat bottom left; }
+.tvfundo2{	float: left; background: url(../images/bgtv2.jpg) no-repeat bottom right;}
+.tvfundo3{	float: left; background: url(../images/bgtv3.jpg) no-repeat 0 120px; }
+
+.radiofundo1{ float: left; background: url(../images/bgradio1.jpg) no-repeat bottom center; height: 470px; width: 900px}
+.radiofundo2{ float: left; background: url(../images/bgradio2.jpg) no-repeat bottom left; height: 470px }
+.radiofundo3{ float: left; background: url(../images/bgradio3.jpg) no-repeat bottom center; height: 470px; width: 900px}
+.radiofundo4{ float: left; background: url(../images/bgradio4.jpg) no-repeat bottom left; height: 470px}
+.radiofundo5{ float: left; background: url(../images/bgradio5.jpg) no-repeat bottom left; height: 470px; width: 900px }
+.radiofundo6{ float: left; background: url(../images/bgradio6.jpg) no-repeat bottom center; height: 470px; width: 900px}
+.radiofundo7{ float: left; background: url(../images/bgradio7.jpg) no-repeat bottom left; height: 470px; width: 900px }
+
+.internetfundo1{ float: left; background: url(../images/bginternet1.jpg) no-repeat bottom left;}
+.internetfundo2{ float: left; background: url(../images/bginternet2.jpg) no-repeat bottom left;}
+.internetfundo3{ float: left; background: url(../images/bginternet3.jpg) no-repeat bottom left;}
+
+.projetosfundo1{	float: left; background: url(../images/bgprojetos1.jpg) no-repeat bottom left;}
+.projetosfundo2{	float: left; background: url(../images/bgprojetos2.jpg) no-repeat bottom left;}
+
+.anunciarfundo1{ float: left; background: url(../images/bganunciar1.jpg) no-repeat bottom left;	}
+.anunciarfundo2{ float: left; background: url(../images/bganunciar2.jpg) no-repeat bottom left;	}
+.anunciarfundo3{ float: left; background: url(../images/bganunciar3.jpg) no-repeat bottom left;	}
+.anunciarfundo4{ float: left; background: url(../images/bganunciar4.jpg) no-repeat bottom left;	}
+
+.produtosfundo	{ float: left; background: url(../images/bgprod0.jpg) no-repeat bottom left; height: 520px; width: 900px}
+.produtosfundo1{ float: left; background: url(../images/bgprod1.jpg) no-repeat bottom left; height: 520px; width: 900px}
+.produtosfundo2{ float: left; background: url(../images/bgprod2.jpg) no-repeat bottom left; height: 520px; width: 900px}
+.produtosfundo3{ float: left; background: url(../images/bgprod3.jpg) no-repeat bottom left; height: 520px; width: 900px}
+.produtosfundo4{ float: left; background: url(../images/bgprod4.jpg) no-repeat bottom left; height: 520px; width: 900px}
+.produtosfundo5{ float: left; background: url(../images/bgprod5.jpg) no-repeat bottom left; height: 520px; width: 900px}
+.produtosfundo6{ float: left; background: url(../images/bgprod6.jpg) no-repeat bottom left; height: 520px; width: 850px}
+.produtosfundo7{ float: left; background: url(../images/bgprod7.jpg) no-repeat bottom left; height: 520px; width: 850px}
+
+
+.tvinternacional{
+	text-align: center;
+	margin: 0 70px;
+}
+
+.agencia{
+	display: block;
+	text-align: center;
+	margin: 40px 0 0 370px;
+}
+
+.portal{
+	display: block;
+	text-align: center;
+	margin: 50px 0 0 350px;
+}
+
+
+/* tabs
+*************************/
+
+ul.tabs
+{
+	display: table;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: relative;
+}
+
+ul.tabs li
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: table-cell;
+	float: left;
+	position: relative;
+}
+
+ul.tabs a
+{
+	position: relative;
+	display: block;
+}
+
+/* dropdowns
+*************************/
+
+ul.dropdown
+{
+	margin: 0;
+	padding: 0;
+	display: block;
+	position: absolute;
+	z-index: 999;
+	top: -5px;
+	width: 250px;
+	display: none;
+	left: 85px;
+}
+
+ul.dropdown ul.dropdown
+{
+	top: 0;
+	left: 95%;
+}
+
+ul.dropdown li
+{
+	margin: 0;
+	padding: 0;
+	float: none;
+	position: relative;
+	list-style: none;
+	display: block;
+}
+
+ul.dropdown li a
+{
+	display: block;
+}
+
+
+/* menu-specifc
+*************************/
+
+#menu
+{
+	z-index: 5;
+	margin-top: 10px;
+	margin-left: 150px;
+	width: 500px;
+	height: 40px;
+	line-height: 40px;
+	background: #fff;
+
+}
+
+#menu ul
+{
+	margin: 0;
+
+}
+
+#menu ul li.hasmore
+{
+	background: url(images/drophighlight.png) no-repeat center 427px;
+}
+
+#menu ul li h4
+{
+	margin: 0;
+}
+
+#menu ul li h4 a
+{
+	font-size: 14px;
+	color: #000;
+	font-weight: bold;
+	padding: 0 15px;
+}
+
+#menu ul li a
+{
+	color: #9b2021;
+	padding-left: 4px;
+	text-decoration: none;
+}
+
+#menu ul li a img
+{
+	vertical-align: middle;
+}
+
+#menu ul li a:hover
+{
+	background: url('../images/item-radios.png') top left no-repeat;
+}
+
+#menu ul li a span
+{
+	display: block;
+	padding: 0 15px 0 11px;
+	color: #76787c;
+	font-weight: normal;
+}
+
+#menu ul li a:span
+{
+	/*background: url(../images/item-radios.png) top right;*/
+}
+
+
+
+#menu ul.dropdown
+{
+	padding: 10px;
+	background: #fff;
+	overflow:hidden;
+	border-bottom: 1px solid #dc902f;
+	width: 290px;
+	margin-top: 30px;
+}
+
+#menu ul.dropdown li a
+{
+	border-bottom: 1px solid #e5cd8e;
+	line-height: 30px;
+	overflow: hidden;
+	height: 30px;
+}
+
+#menu ul.dropdown li.last a
+{
+	border-bottom-width: 0;
+}
+
+#menu ul.dropdown li a:hover
+{
+	background: url(../images/item-radios.png) no-repeat left center;
+}
+
+#menu ul li h4 a:hover
+{
+	background-image: none;
+}
+
+/* acaba o dropdown */
+
+#navigationMenu,
+#navigationMenuOpen {
+	position: relative;
+	left: 820px;
+	top: 270px;
+	z-index: 9;
+	width: 80px;
+}
+
+#navigationMenuProd,
+#navigationMenuProdOpen {
+	position: relative;
+	left: 820px;
+	top: 170px;
+	z-index: 9;
+	width: 50px;
+}
+
+#footer {
+	font-family:'Myriad Pro',Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #aaaaaa;	
+	text-align: center;
+	margin-top: 10px;
+	clear: both;
+}
+
+#submenu {
+   float:left;
+   width:100%;
+   background:#fff;
+   overflow:hidden;
+   position:relative;
+   min-height: 30px;
+   margin-top: 15px;
+}
+
+
+#submenu ul {
+   clear:left;
+   float:left;
+   list-style:none;
+   margin:0;
+   padding:0;
+   position:relative;
+   left:50%;
+   text-align:center;
+}
+
+#submenu ul li {
+   display:block;
+   float:left;
+   list-style:none;
+   margin:0;
+   padding:0;
+   position:relative;
+   right:50%;
+}
+
+#submenu ul li a {
+   display:block;
+   padding:5px 10px 2px 25px;
+   text-decoration:none;
+   color: #3C3C3C;
+}
+
+#submenu ul li a.active,
+#submenu ul li a.active:hover {
+   color:#fff;
+   background:#000;
+   font-weight:bold;
+}
+
+#barra-esquerda {
+	height: 455px;
+	width: 160px;
+	float: left;
+	padding: 0 10px;
+	text-align: center;
+}
+
+#texto {
+	height: 455px;
+	width: 610px;	
+	float: left;
+	padding: 10px 10px;
+	overflow: hidden;
+	font-size: 13px;
+}
+
+#textoprojetos {
+    float: left;
+    font-size: 13px;
+    height: 435px;
+    overflow: auto;
+    padding: 10px;
+    width: 620px;
+}
+
+#textoebc {
+	height: 455px;
+	width: 680px;	
+	float: left;
+	padding: 10px 10px;
+	overflow: hidden;
+	font-size: 13px;
+}
+
+
+
+#textoebc5 {
+	height: 455px;
+	width: 720px;	
+	float: left;
+	padding: 10px 10px;
+	overflow: hidden;
+	font-size: 13px;
+}
+
+
+
+
+p.bold{
+	font-weight: bold;
+}
+
+p.tituloebc{
+	color:#3C3C3C;
+	font-weight: bold;
+	font-size: 16px;
+	padding: 10px 0;
+}
+
+p.titulotvs{
+	color:#004e96;
+	font-weight: bold;
+	font-size: 16px;
+	padding: 10px 0;
+}
+
+p.tituloradios{
+	color:#9f1d20;
+	font-weight: bold;
+	font-size: 16px;
+	padding: 10px 0;
+}
+
+p.titulointernet{
+	color:#f16c2a;
+	font-weight: bold;
+	font-size: 16px;
+	padding: 10px 0;
+}
+.titulointernet a{
+	color:#f16c2a;
+	font-weight: bold;
+	font-size: 16px;
+	padding: 10px 0;
+	text-decoration: none;
+}
+
+.radioagencia a{
+	color:#f16c2a;
+	font-weight: bold;
+	font-size: 25px;
+	padding: 10px 0;
+	text-decoration: none;
+}
+
+p.titulopublicidade{
+	color:#187d3e;
+	font-weight: bold;
+	font-size: 16px;
+	padding: 10px 0;
+}
+
+p.tituloanunciar{
+	color:#754c28;
+	font-weight: bold;
+	font-size: 16px;
+	padding: 10px 0;
+}
+
+p.tituloanunciar2{
+	color:#754c28;
+	font-weight: bold;
+	font-size: 22px;
+	padding: 10px 0;
+}
+
+p.tituloprodutos{
+	color:#619aaa;
+	font-weight: bold;
+	font-size: 16px;
+	padding: 10px 0;
+}
+
+p.titulolocacao{
+	color:#d1c316;
+	font-weight: bold;
+	font-size: 16px;
+	padding: 10px 0;
+}
+
+p.textotv2{
+	margin-left: 0px;
+	width: 230px;
+}
+
+p.textotv3{
+	margin: 20px;
+}
+
+.textoradio1 p{
+	margin-left: 0px;
+	margin-top: 120px;
+	width: 250px;
+}
+
+p.textoradio2{
+	margin-left: 150px;
+	margin-top: 10px;
+	width: 445px;
+}
+
+p.textointernet2{
+	margin-left: 60px;
+	width: 540px;
+}
+
+
+.textointernet3 p{
+	margin-left: 120px;
+	margin-top: 20px;
+	width: 450px;
+}
+
+.comunicacao {
+	margin-top: 30px;
+}
+
+#header a.home {
+    display: block;
+    float: left;
+    height: 100px;
+    margin-left: 30px;
+    width: 270px;
+}
+#header a.ebctopo {
+    display: block;
+    float: right;
+    height: 25px;
+    margin-right: 5px;
+    margin-top: 70px;
+    width: 65px;
+}
+#header a.midiakit {
+    display: block;
+    float: right;
+    height: 25px;
+    margin-right: 5px;
+    margin-top: 70px;
+    width: 65px;
+}
+#header a.produtos {
+    display: block;
+    float: right;
+    height: 25px;
+    margin-right: 15px;
+    margin-top: 70px;
+    width: 120px;
+}
+#header a.contato {
+    display: block;
+    float: right;
+    height: 25px;
+    margin-right: 10px;
+    margin-top: 70px;
+    width: 65px;
+}
+#header a.pdf {
+    display: block;
+    float: right;
+    height: 25px;
+    margin-right: 5px;
+    margin-top: 70px;
+    width: 70px;
+}
+
+.ui-tabs { position: relative; zoom: 1; } /* position: relative prevents IE scroll bug (element with position: relative inside container with overflow: auto appear as "fixed") */
+.ui-tabs .ui-tabs-x { margin: 0; padding: 0; }
+.ui-tabs .ui-tabs-nav li { list-style: none; float: left; position: relative; top: 1px; margin: 0 0 1px 0; border-bottom: 0 !important; padding: 0; white-space: nowrap; }
+.ui-tabs .ui-tabs-nav li a { float: left; padding: 5px; text-decoration: none; }
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected { margin-bottom: 0; padding-bottom: 1px; font-weight: bold; background: url(../images/item-ebc.png) no-repeat left top }
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-state-processing a { cursor: text; }
+.ui-tabs .ui-tabs-nav li a, .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a { cursor: pointer; } /* first selector in group seems obsolete, but required to overcome bug in Opera applying cursor: text overall if defined elsewhere... */
+.ui-tabs .ui-tabs-panel { display: block; border-width: 0;  }
+.ui-tabs .ui-tabs-hide { display: none !important; }
+
+
+/* CAIXAS */
+
+.caixas{
+   float: left;
+   width: 900px;
+   margin: 45px;
+}
+
+.caixa{
+   float: left;
+   margin-right: 30px;
+   width: 235px;
+   height: 175px;
+   padding: 10px;
+   background-color: #fff;
+   -moz-box-shadow: 3px 3px 4px #000;
+   -webkit-box-shadow: 3px 3px 4px #000;
+   box-shadow: 3px 3px 4px #000;
+   /* For IE 8 */
+   -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+   /* For IE 5.5 - 7 */
+   filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
+}
+}
+
+.caixa a{
+   text-decoration: none;
+}
+
+.textoCaixa{
+  height: 160px;
+  width: 220px;
+  padding: 0 10px;
+}
+
+.textoCaixa a{
+	text-decoration: none;
+}
+
+.textoCaixa p{
+   font-family: 'Titillium Web', sans-serif;
+   font-size: 14px;
+   color: #000;
+   line-height: 14px;
+}
+
+.tituloTelevisao{
+	background-color: #1F63A2;
+	color: #FFFFFF;
+	font-family: 'Titillium Web',sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 15px;
+	margin-left: -20px;
+	padding: 10px 40px 10px 20px;
+	text-transform: uppercase;
+}
+
+.tituloRadio{
+   	background-color: #a01d21;
+	color: #FFFFFF;
+	font-family: 'Titillium Web',sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 15px;
+	margin-left: -20px;
+	padding: 10px 40px 10px 20px;
+	text-transform: uppercase;
+}
+
+.tituloProjetos{
+   	background-color: #006838;
+	color: #FFFFFF;
+	font-family: 'Titillium Web',sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 15px;
+	margin-left: -20px;
+	padding: 10px 40px 10px 20px;
+	text-transform: uppercase;
+}
+
+
+.linkTelevisao{
+   	float: right;
+   	margin: 2px 0px 0 0;
+   	padding: 0;
+   	position: relative;
+	color: #1f63a2;
+	font-family: 'Titillium Web',sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.linkRadio{
+   	float: right;
+   	margin: 2px 0px 0 0;
+   	padding: 0;
+   	position: relative;
+	color: #a01d21;
+	font-family: 'Titillium Web',sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.linkProjetos{
+   	float: right;
+   	margin: 2px 0px 0 0;
+   	padding: 0;
+   	position: relative;
+	color: #006838;
+	font-family: 'Titillium Web',sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+
+
